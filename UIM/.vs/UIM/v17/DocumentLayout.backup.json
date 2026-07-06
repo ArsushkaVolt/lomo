@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T20:05:25.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T20:00:51.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\MainViewModels.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\MainViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:56:27.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElementBase.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\ElementBase.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\ElementBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:53:51.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfApp1\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:52:06.036Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
