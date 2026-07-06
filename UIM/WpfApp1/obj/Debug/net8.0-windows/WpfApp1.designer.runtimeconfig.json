@@ -12,13 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\BaitPro\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\BaitPro\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\Co1n19\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Co1n19\\.nuget\\packages"
     ],
     "configProperties": {
       "MVVMTOOLKIT_ENABLE_INOTIFYPROPERTYCHANGING_SUPPORT": true,
-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }

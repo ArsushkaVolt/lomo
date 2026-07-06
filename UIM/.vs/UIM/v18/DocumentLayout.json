@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Co1n19\\lomo\\UIM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\viewmodels\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\co1n19\\lomo\\uim\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,134 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:16:38.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml",
               "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
               "RelativeToolTip": "WpfApp1\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-06T21:04:00.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.326Z",
+              "WhenOpened": "2026-07-06T22:16:20.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
-              "RelativeToolTip": "WpfApp1\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\UserService.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
-              "RelativeToolTip": "WpfApp1\\ViewModels\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WpfApp1.csproj",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
-              "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
-              "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-06T21:04:00.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RelayCommands.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\Commands\\RelayCommands.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
-              "RelativeToolTip": "WpfApp1\\Commands\\RelayCommands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.634Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:04:36.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-06T21:04:00.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\MainViewModels.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
-              "RelativeToolTip": "WpfApp1\\ViewModels\\MainViewModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ElementBase.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\Models\\ElementBase.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
-              "RelativeToolTip": "WpfApp1\\Models\\ElementBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Co1n19\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
-              "RelativeToolTip": "WpfApp1\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:04:00.65Z"
+              "WhenOpened": "2026-07-06T21:04:00.641Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -12,16 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace UIM.UI.WPF.Views
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для LoginWindow.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class LoginWindow : Window
     {
-        public Window1()
+        public LoginWindow()
         {
             InitializeComponent();
+        }
+
+        public void Login_Click(object sender, RoutedEventArgs e) 
+        {
+            this.Close();
         }
     }
 }

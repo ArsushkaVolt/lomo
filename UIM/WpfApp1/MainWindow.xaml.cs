@@ -9,13 +9,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace UIM.WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public void Calibration_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        public void Logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
         public MainWindow()
         {
             InitializeComponent();
