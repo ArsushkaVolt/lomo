@@ -1,78 +1,86 @@
-﻿<Window x:Class="UIM.WPF.MainWindow"
+﻿<Window x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:wpfapp1="clr-namespace:WpfApp1"
         Title="ПО УИМ - Универсальный измерительный микроскоп" 
         Height="900" Width="1400" 
         WindowState="Maximized">
+    
 
     <DockPanel>
-        <!-- 1. Верхняя панель (Меню + Режим) -->
-        <DockPanel DockPanel.Dock="Top" Background="#F0F0F0">
-            <Menu DockPanel.Dock="Left">
-                <MenuItem Header="Файл">
-                    <MenuItem Header="Новый протокол"/>
-                    <MenuItem Header="Открыть..."/>
-                    <MenuItem Header="Сохранить"/>
-                    <Separator/>
-                    <MenuItem Header="Выход"/>
-                </MenuItem>
+        <!-- Верхняя панель -->
+        <DockPanel DockPanel.Dock="Top" Background="#F5F5F5" Height="48">
+            <Menu Margin="10,0">
+                <MenuItem Header="Файл"/>
                 <MenuItem Header="Измерения"/>
                 <MenuItem Header="Элементы"/>
                 <MenuItem Header="Системы координат"/>
                 <MenuItem Header="Отчёты"/>
-                <MenuItem Header="Сервис" Visibility="{Binding IsAdminOrMetrologist}">
+                <MenuItem Header="Сервис" Visibility="{Binding IsMetrologistOrHigher}">
                     <MenuItem Header="Калибровка" Click="Calibration_Click"/>
                 </MenuItem>
+                <Button Content="Сменить пользователя" Click="Logout_Click"/>
             </Menu>
 
-            <!-- Текущий режим и пользователь -->
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="10">
-                <TextBlock Text="Режим:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0">
+                <TextBlock Text="Режим:" Margin="0,0,8,0" VerticalAlignment="Center"/>
                 <TextBlock Text="{Binding CurrentModeDisplay}" 
-                           FontWeight="Bold" Foreground="{Binding ModeColor}" 
-                           VerticalAlignment="Center" Margin="0,0,20,0"/>
+                           FontWeight="Bold" FontSize="14"
+                           Foreground="{Binding ModeColor}" VerticalAlignment="Center"/>
 
+                <TextBlock Text=" • " Margin="15,0"/>
                 <TextBlock Text="{Binding CurrentUser.FullName}" VerticalAlignment="Center"/>
-                <Button Content="Сменить пользователя" Margin="10,0,0,0" Click="Logout_Click"/>
             </StackPanel>
         </DockPanel>
 
-        <!-- 2. Статус-бар внизу -->
+        <!-- Статус-бар -->
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem>
-                <TextBlock Text="{Binding AuditStatus}" Foreground="DarkGreen"/>
-            </StatusBarItem>
-            <StatusBarItem HorizontalAlignment="Right">
-                <TextBlock Text="АО «ЛОМО» • 2026"/>
+                <TextBlock Text="{Binding AuditStatus}" Foreground="DarkGreen" FontWeight="Medium"/>
             </StatusBarItem>
         </StatusBar>
 
-        <!-- 3. Основная рабочая область -->
+        <!-- Основная область -->
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="320"/>
                 <!-- Дерево элементов -->
-                <ColumnDefinition Width="5*"/>
-                <!-- Графическая область -->
-                <ColumnDefinition Width="280"/>
-                <!-- Панель свойств -->
+                <ColumnDefinition Width="7*"/>
+                <!-- Графика -->
+                <ColumnDefinition Width="300"/>
+                <!-- Свойства -->
             </Grid.ColumnDefinitions>
 
-            <!-- Дерево элементов (будет реализовано дальше) -->
-            <TreeView Grid.Column="0" Margin="5" ItemsSource="{Binding Elements}"/>
+            <!-- 1. TreeView элементов -->
+            <TreeView Margin="6" ItemsSource="{Binding RootElements}"
+                      SelectedItemChanged="TreeView_SelectedItemChanged">
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="TreeViewItem">
+                        <Setter Property="IsExpanded" Value="True"/>
+                    </Style>
+                </TreeView.ItemContainerStyle>
+                <TreeView.ItemTemplate>
+                    <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                        <StackPanel Orientation="Horizontal" Margin="3">
+                            <TextBlock Text="{Binding DisplayName}" FontWeight="Medium"/>
+                            <TextBlock Text="{Binding StatusText}" Margin="15,0,0,0" 
+                                       Foreground="{Binding StatusBrush}"/>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                </TreeView.ItemTemplate>
+            </TreeView>
 
-            <!-- Графическая область -->
-            <Border Grid.Column="1" Margin="5" BorderBrush="Gray" BorderThickness="1">
-                <TextBlock Text="Графическая область (MeasuringCanvas)" 
-                           HorizontalAlignment="Center" VerticalAlignment="Center" 
-                           FontSize="16" Foreground="Gray"/>
-                <!-- Здесь позже будет Custom Control -->
+            <!-- 2. Графическая область (заглушка) -->
+            <Border Grid.Column="1" Margin="6" BorderBrush="#CCCCCC" BorderThickness="2">
+                <TextBlock Text="Графическая область измерений" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           FontSize="18" Foreground="#888"/>
             </Border>
 
-            <!-- Панель свойств текущего элемента -->
-            <StackPanel Grid.Column="2" Margin="5">
-                <TextBlock Text="Свойства элемента" FontWeight="Bold"/>
-                <!-- Динамическое содержимое через ContentControl -->
+            <!-- 3. Панель свойств -->
+            <StackPanel Grid.Column="2" Margin="6">
+                <TextBlock Text="Свойства элемента" FontSize="14" FontWeight="Bold"/>
+                <!-- Динамическое содержимое позже -->
             </StackPanel>
         </Grid>
     </DockPanel>

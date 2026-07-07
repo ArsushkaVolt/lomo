@@ -25,7 +25,7 @@
       "MaterialDesignThemes/5.3.2": {
         "dependencies": {
           "MaterialDesignColors": "5.3.2",
-          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.142"
         },
         "runtime": {
           "lib/net8.0-windows7.0/MaterialDesignThemes.Wpf.dll": {
@@ -34,11 +34,11 @@
           }
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
         "runtime": {
-          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+          "lib/net8.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
             "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.77.27830"
+            "fileVersion": "1.1.142.60144"
           }
         }
       }
@@ -66,12 +66,12 @@
       "path": "materialdesignthemes/5.3.2",
       "hashPath": "materialdesignthemes.5.3.2.nupkg.sha512"
     },
-    "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.142": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MCu674ZETgU18EbxfwIlRpUPJ02YbZenLsMCXTkpeA7KUBpXfFaOUDlEO+7UWu5AFnUoydg+aQENJkuaZPheMQ==",
-      "path": "microsoft.xaml.behaviors.wpf/1.1.77",
-      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+      "sha512": "sha512-c47wA/8GHiQ9w+O6+mdqrZhZrxHogx2/fSZyRKL9tz0k+ypoTiwOx6fID0X3jr5LnCazJbCk7KiAcL0zVnNgNA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.142",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512"
     }
   }
 }
