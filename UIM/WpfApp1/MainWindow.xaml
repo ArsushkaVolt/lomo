@@ -27,11 +27,26 @@
 
             <!-- Текущий режим и пользователь -->
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Margin="10">
-                <TextBlock Text="Режим:" VerticalAlignment="Center" Margin="0,0,5,0"/>
-                <TextBlock Text="{Binding CurrentModeDisplay}" 
-                           FontWeight="Bold" Foreground="{Binding ModeColor}" 
-                           VerticalAlignment="Center" Margin="0,0,20,0"/>
+                <StackPanel Orientation="Horizontal" Margin="0,0,15,0">
+                    <TextBlock Text="Режим:" VerticalAlignment="Center" Margin="0,0,8,0" FontWeight="SemiBold"/>
 
+                    <RadioButton x:Name="Oper" GroupName="ModeGroup" 
+                                 Content="Оператор" Margin="3,0,8,0"
+                                 IsChecked="True" Checked="Mode_Checked"
+                                 VerticalAlignment="Center"/>
+
+                    <RadioButton x:Name="Metr" GroupName="ModeGroup" 
+                                 Content="Метролог" Margin="3,0,8,0"
+                                 Checked="Mode_Checked"
+                                 VerticalAlignment="Center"/>
+
+                    <RadioButton x:Name="Adm" GroupName="ModeGroup" 
+                                 Content="Администратор" Margin="3,0,0,0"
+                                 Checked="Mode_Checked"
+                                 VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <!-- Текущий пользователь -->
                 <TextBlock Text="{Binding CurrentUser.FullName}" VerticalAlignment="Center"/>
                 <Button Content="Сменить пользователя" Margin="10,0,0,0" Click="Logout_Click"/>
             </StackPanel>
