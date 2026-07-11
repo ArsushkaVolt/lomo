@@ -1,11 +1,8 @@
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.AssemblyReference.cache
-C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\LoginWindow.baml
-C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\LoginWindow.g.cs
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_Content.g.cs
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
-C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.exe
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.deps.json
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.runtimeconfig.json
@@ -28,3 +25,4 @@ C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\refi
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\App.baml

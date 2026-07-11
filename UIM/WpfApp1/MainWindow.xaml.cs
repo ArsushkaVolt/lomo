@@ -8,48 +8,66 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfApp1.ViewModels;
 
 namespace WpfApp1
 {
 
     public partial class MainWindow : Window
     {
-        private readonly MainViewModel _vm = new MainViewModel();
+        private string currentMode = "Оператор";
 
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = _vm;
+            UpdateModeUI();
         }
 
-        // ==================== ОБРАБОТЧИКИ МЕНЮ ====================
-
-        private void Calibration_Click(object sender, RoutedEventArgs e)
+        // Галочка для быстрого переключения в Метролог
+        private void chkMetrologist_Checked(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Калибровка доступна только в режиме Метролог или Администратор.",
-                "Калибровка", MessageBoxButton.OK, MessageBoxImage.Information);
+            currentMode = "Метролог";
+            UpdateModeUI();
         }
 
-        private void Logout_Click(object sender, RoutedEventArgs e)
+        private void chkMetrologist_Unchecked(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Выйти из текущей учётной записи?", "Выход",
-                    MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            currentMode = "Оператор";
+            UpdateModeUI();
+        }
+
+        // Переключение через меню
+        private void SetMode(string mode)
+        {
+            currentMode = mode;
+            chkMetrologist.IsChecked = (mode == "Метролог");
+            UpdateModeUI();
+        }
+
+        private void Mode_Operator_Click(object sender, RoutedEventArgs e) => SetMode("Оператор");
+        private void Mode_Metrologist_Click(object sender, RoutedEventArgs e) => SetMode("Метролог");
+        private void Mode_Admin_Click(object sender, RoutedEventArgs e) => SetMode("Администратор");
+
+        private void UpdateModeUI()
+        {
+            statusMode.Text = $"Режим: {currentMode}";
+
+            if (currentMode == "Метролог")
             {
-                ApplicationState.Logout();
-
-                var loginWindow = new LoginWindow();
-                Application.Current.MainWindow = loginWindow;
-                loginWindow.Show();
-                this.Close();
+                statusText.Text = "Расширенные функции активны";
+                statusText.Foreground = Brushes.Orange;
+                Title = "ПО УИМ — Режим Метролог";
             }
-        }
-
-        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
-        {
-            if (e.NewValue is ElementViewModel element)
+            else if (currentMode == "Администратор")
             {
-                _vm.SelectedElement = element;
+                statusText.Text = "Административный доступ";
+                statusText.Foreground = Brushes.Red;
+                Title = "ПО УИМ — Режим Администратор";
+            }
+            else
+            {
+                statusText.Text = "Готов к измерению";
+                statusText.Foreground = Brushes.Green;
+                Title = "ПО УИМ — Универсальный измерительный микроскоп";
             }
         }
     }
