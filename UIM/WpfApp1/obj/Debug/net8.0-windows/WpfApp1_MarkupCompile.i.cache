@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\App.xaml
-3914960929
+4-513913701
 221215979416
-9652032387
+101858598000
 202582043037
-LoginWindow.xaml;MainWindow.xaml;MeasurementWindow.xaml;
+CoordinateSystemWindow.xaml;LoginWindow.xaml;MainWindow.xaml;NotificationPanel.xaml;
 
-False
+True
 

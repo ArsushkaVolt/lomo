@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="WpfApp1.NotificationPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Border Background="#FFF3CD" BorderBrush="#FFEAA0" BorderThickness="1" CornerRadius="4" 
+            Padding="12" Margin="8">
+        <StackPanel>
+            <TextBlock x:Name="txtMessage" TextWrapping="Wrap" FontSize="13"/>
+            <TextBlock x:Name="txtDetails" TextWrapping="Wrap" FontSize="12" Foreground="#666" Margin="0,4,0,0"/>
+        </StackPanel>
+    </Border>
+</UserControl>

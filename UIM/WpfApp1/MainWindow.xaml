@@ -41,7 +41,9 @@
                 <MenuItem Header="Просмотр протоколов"/>
                 <MenuItem Header="Настройка программ протокола"/>
             </MenuItem>
-            <MenuItem Header="Настройка"/>
+            <MenuItem Header="Настройка">
+                <MenuItem Header="Калибровка"/>
+            </MenuItem>
             <MenuItem Header="Сервис"/>
             <MenuItem Header="Помощь"/>
             <MenuItem Header="Режим">
@@ -61,12 +63,13 @@
             <Button Content="○" ToolTip="Окружность" Width="38" Height="38" FontSize="18" Margin="2"/>
             <Button Content="⬭" ToolTip="Эллипс" Width="38" Height="38" FontSize="18" Margin="2"/>
             <Separator/>
+            <Button Content="📏 Начать измерение" Width="150" Height="42" Background="#007ACC" Foreground="White"
+                    Click="BtnStartMeasurement_Click"/>
+            <Button Content="📐 СК" Width="50" Height="42" Click="BtnOpenCS_Click"/>
+            <CheckBox x:Name="chkMetrologist" Content="Метролог" Margin="20,8" FontSize="14" FontWeight="SemiBold"
+                      Checked="chkMetrologist_Checked" Unchecked="chkMetrologist_Unchecked"/>
 
-            <!-- Галочка переключения режима -->
-            <CheckBox x:Name="chkMetrologist" Content="Метролог" Margin="12,8" VerticalAlignment="Center" 
-                      FontSize="14" FontWeight="Medium"
-                      Checked="chkMetrologist_Checked" 
-                      Unchecked="chkMetrologist_Unchecked"/>
+            
         </ToolBar>
 
         <!-- Рабочая область -->
@@ -82,11 +85,45 @@
                 <TextBlock Text="Элементы" FontWeight="SemiBold" Margin="8,6"/>
                 <TreeView x:Name="treeElements" Margin="4"/>
             </DockPanel>
+            <!-- Центральная область: Графика + Панель измерения -->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"/>
+                    <!-- Графика -->
+                    <RowDefinition Height="2*"/>
+                    <!-- Панель текущего измерения -->
+                </Grid.RowDefinitions>
 
-            <!-- Графическая область -->
-            <Border Grid.Column="1" Background="#FAFAFA" BorderBrush="#AAAAAA" BorderThickness="1" Margin="4">
-                <Canvas x:Name="canvas" Background="Transparent"/>
-            </Border>
+
+                <!-- Графическая область -->
+                <Border Background="#FAFAFA" BorderBrush="#AAA" BorderThickness="1" Margin="4">
+                    <Canvas x:Name="canvas" Background="Transparent"/>
+                </Border>
+
+                <!-- Панель активного измерения (совмещённая) -->
+                <GroupBox Grid.Row="1" Header="Активное измерение" Margin="4" Foreground="White">
+                    <Grid Margin="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Текущая точка:" FontWeight="SemiBold" />
+                            <TextBlock x:Name="txtCurrentCoord" Text="X=0,0000  Y=0,0000" FontSize="14" Margin="4"/>
+                            <Button Content="Фиксировать точку" Width="160" Height="36" 
+                                    Background="#007ACC" Foreground="White" Click="BtnFixPoint_Click"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                            <TextBlock Text="Статистика:" FontWeight="SemiBold"/>
+                            <TextBlock x:Name="txtMeasurementInfo" Text="Точек: 0   СКО: —" Margin="4"/>
+                            <Button Content="Завершить элемент" Width="160" Height="36" 
+                                    Background="#28A745" Foreground="White" Click="BtnFinishElement_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </GroupBox>
+            </Grid>
 
             <!-- Панель свойств -->
             <DockPanel Grid.Column="2" Background="White" Margin="4">

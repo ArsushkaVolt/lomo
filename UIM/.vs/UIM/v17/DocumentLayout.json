@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\notificationpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\notificationpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\measurementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\measurementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -19,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\measurementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\measurementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\notificationpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\notificationpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\coordinatesystemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\coordinatesystemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\coordinatesystemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\coordinatesystemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\baitpro\\documents\\github\\lomo\\uim\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,44 +70,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MeasurementWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MeasurementWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\MeasurementWindow.xaml",
-              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MeasurementWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\MeasurementWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-13T09:38:19.885Z",
+              "DocumentIndex": 0,
+              "Title": "NotificationPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\NotificationPanel.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\NotificationPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\NotificationPanel.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\NotificationPanel.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T12:56:16.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MeasurementWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MeasurementWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\MeasurementWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MeasurementWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\MeasurementWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "NotificationPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\NotificationPanel.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\NotificationPanel.xaml",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\NotificationPanel.xaml",
+              "RelativeToolTip": "WpfApp1\\NotificationPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-13T12:55:35.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoordinateSystemWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\CoordinateSystemWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\CoordinateSystemWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\CoordinateSystemWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\CoordinateSystemWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T09:36:37.678Z",
+              "WhenOpened": "2026-07-13T10:32:16.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoordinateSystemWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\CoordinateSystemWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\CoordinateSystemWindow.xaml",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\CoordinateSystemWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\CoordinateSystemWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-13T10:27:14.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T20:05:25.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-12T22:06:33.541Z",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:18:50.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "WpfApp1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-11T21:58:45.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml.cs",
@@ -112,31 +168,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\App.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
-              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\App.xaml",
-              "RelativeToolTip": "WpfApp1\\App.xaml",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-11T21:58:45.769Z",
+              "WhenOpened": "2026-07-12T22:06:33.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-05T20:05:25.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ElementIconConverter.cs",
               "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\ElementIconConverter.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ElementIconConverter.cs",
@@ -148,20 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T21:18:50.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "WpfApp1.csproj",
               "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
@@ -173,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "RelayCommands.cs",
               "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Commands\\RelayCommands.cs",
@@ -185,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\BaitPro\\Documents\\GitHub\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
