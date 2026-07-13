@@ -28,5 +28,8 @@ C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\ref\
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\App.baml
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\LoginWindow.baml
 C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\LoginWindow.g.cs
-C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\MeasurementWindow.baml
-C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\MeasurementWindow.g.cs
+C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\NotificationPanel.baml
+C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\CoordinateSystemWindow.g.cs
+C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\NotificationPanel.g.cs
+C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\BaitPro\Documents\GitHub\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\CoordinateSystemWindow.baml

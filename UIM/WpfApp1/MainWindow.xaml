@@ -44,8 +44,6 @@
             <MenuItem Header="Настройка">
                 <MenuItem Header="Калибровка"/>
             </MenuItem>
-            <MenuItem Header="Сервис"/>
-            <MenuItem Header="Помощь"/>
             <MenuItem Header="Режим">
                 <MenuItem Header="Оператор" Click="Mode_Operator_Click"/>
                 <MenuItem Header="Метролог" Click="Mode_Metrologist_Click"/>
@@ -64,10 +62,12 @@
             <Button Content="⬭" ToolTip="Эллипс" Width="38" Height="38" FontSize="18" Margin="2"/>
             <Separator/>
             <Button Content="📏 Начать измерение" Width="150" Height="42" Background="#007ACC" Foreground="White"
-                    Click="BtnStartMeasurement_Click"/>
+                    Click="BtnFixPoint_Click"/>
             <Button Content="📐 СК" Width="50" Height="42" Click="BtnOpenCS_Click"/>
             <CheckBox x:Name="chkMetrologist" Content="Метролог" Margin="20,8" FontSize="14" FontWeight="SemiBold"
                       Checked="chkMetrologist_Checked" Unchecked="chkMetrologist_Unchecked"/>
+            <Button Content="Профиль" Width="150" Height="42" Background="Green" Foreground="White"
+        Click="BtnFixPoint_Click"/>
 
             
         </ToolBar>
@@ -97,34 +97,62 @@
 
                 <!-- Графическая область -->
                 <Border Background="#FAFAFA" BorderBrush="#AAA" BorderThickness="1" Margin="4">
-                    <Canvas x:Name="canvas" Background="Transparent"/>
+                    <Canvas x:Name="canvas" Background="Transparent" />
                 </Border>
 
                 <!-- Панель активного измерения (совмещённая) -->
                 <GroupBox Grid.Row="1" Header="Активное измерение" Margin="4" Foreground="White">
                     <Grid Margin="8">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
-                        <StackPanel Grid.Column="0">
-                            <TextBlock Text="Текущая точка:" FontWeight="SemiBold" />
-                            <TextBlock x:Name="txtCurrentCoord" Text="X=0,0000  Y=0,0000" FontSize="14" Margin="4"/>
-                            <Button Content="Фиксировать точку" Width="160" Height="36" 
-                                    Background="#007ACC" Foreground="White" Click="BtnFixPoint_Click"/>
+                        <!-- Выбор типа -->
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+                            <TextBlock Text="Тип элемента:" FontWeight="SemiBold" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                            <ComboBox x:Name="cmbElementType" Width="180" Height="30" SelectedIndex="2">
+                                <ComboBoxItem>Точка</ComboBoxItem>
+                                <ComboBoxItem>Прямая</ComboBoxItem>
+                                <ComboBoxItem>Окружность</ComboBoxItem>
+                                <ComboBoxItem>Эллипс</ComboBoxItem>
+                            </ComboBox>
                         </StackPanel>
 
-                        <StackPanel Grid.Column="1" Margin="20,0,0,0">
-                            <TextBlock Text="Статистика:" FontWeight="SemiBold"/>
-                            <TextBlock x:Name="txtMeasurementInfo" Text="Точек: 0   СКО: —" Margin="4"/>
-                            <Button Content="Завершить элемент" Width="160" Height="36" 
-                                    Background="#28A745" Foreground="White" Click="BtnFinishElement_Click"/>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="Текущая точка:" FontWeight="SemiBold"/>
+                                <TextBlock x:Name="txtCurrentCoord" Text="X=0,0000  Y=0,0000" FontSize="14" Margin="4"/>
+                                <Button Content="Фиксировать точку" Width="170" Height="38" 
+                                        Background="#007ACC" Foreground="White" Click="BtnFixPoint_Click"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                                <TextBlock Text="Статистика:" FontWeight="SemiBold"/>
+                                <TextBlock x:Name="txtMeasurementInfo" Text="Точек: 0   СКО: —" Margin="4"/>
+                                <Button Content="Завершить элемент" Width="170" Height="38" 
+                                        Background="#28A745" Foreground="White" Click="BtnFinishElement_Click"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- Список точек + фильтрация -->
+                        <StackPanel Grid.Row="2" Margin="0,12,0,0">
+                            <ListBox x:Name="lstMeasuredPoints" Height="110" Background="#F9F9F9"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                                <Button Content="Фильтровать промахи" Width="160" Height="32" Click="BtnFilterOutliers_Click"/>
+                                <Button Content="Сбросить фильтр" Width="130" Height="32" Margin="8,0" Click="BtnResetFilter_Click"/>
+                                <TextBlock x:Name="txtOutliersInfo" Margin="12,6,0,0" FontSize="13" Foreground="#D32F2F"/>
+                            </StackPanel>
                         </StackPanel>
                     </Grid>
                 </GroupBox>
             </Grid>
-
             <!-- Панель свойств -->
             <DockPanel Grid.Column="2" Background="White" Margin="4">
                 <TabControl>
@@ -144,6 +172,10 @@
                 <TextBlock x:Name="statusText" Text="Готов к измерению"/>
             </StatusBarItem>
         </StatusBar>
+
+        <!-- Панель уведомлений (неблокирующая) -->
+        <StackPanel x:Name="notificationPanel" Grid.Row="2" VerticalAlignment="Bottom" 
+            HorizontalAlignment="Right" Margin="20" MaxWidth="420"/>
     </Grid>
 </Window>
    
