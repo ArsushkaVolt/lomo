@@ -46,8 +46,8 @@ public  class MeasurementSeries
         double SumX = points.Sum(p => Math.Pow(p.X - avg.X, 2));
         double SumY = points.Sum(p => Math.Pow(p.Y - avg.Y, 2));
 
-        double skoX = Math.Sqrt(sumSquaresX / (n - 1));
-        double skoY = Math.Sqrt(sumSquaresY / (n - 1));
+        double skoX = Math.Sqrt(SumX / (n - 1));
+        double skoY = Math.Sqrt(SumY / (n - 1));
 
         return (skoX, skoY);
 
