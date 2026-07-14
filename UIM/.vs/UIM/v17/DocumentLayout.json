@@ -1,61 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\lomo\\UIM\\",
+  "WorkspaceRootPath": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\uim.tests\\measurementseriestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|solutionrelative:uim.tests\\measurementseriestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\uim.tests\\pointtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|solutionrelative:uim.tests\\pointtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\viewmodels\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\viewmodels\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\mainviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\commands\\relaycommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\elementbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|c:\\lomo\\uim\\uim.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|solutionrelative:uim.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|c:\\lomo\\uim\\uim.core\\uim.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\uim.core\\uim.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|solutionrelative:uim.core\\uim.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|c:\\lomo\\uim\\uim.core\\geometry\\point2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|solutionrelative:uim.core\\geometry\\point2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\wpfapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\lomo\\uim\\wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C8938A-3E43-4334-A5F4-36F7AEE88075}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,23 +66,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PointTests.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\UIM.tests\\PointTests.cs",
+              "RelativeDocumentMoniker": "UIM.tests\\PointTests.cs",
+              "ToolTip": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\UIM.tests\\PointTests.cs",
+              "RelativeToolTip": "UIM.tests\\PointTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T12:40:23.367Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeasurementSeriesTests.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\UIM.tests\\MeasurementSeriesTests.cs",
+              "RelativeDocumentMoniker": "UIM.tests\\MeasurementSeriesTests.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\UIM.tests\\MeasurementSeriesTests.cs",
+              "RelativeToolTip": "UIM.tests\\MeasurementSeriesTests.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T16:51:00.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -98,53 +116,32 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\UIM.tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "UIM.tests\\UnitTest1.cs",
-              "ToolTip": "C:\\lomo\\UIM\\UIM.tests\\UnitTest1.cs",
-              "RelativeToolTip": "UIM.tests\\UnitTest1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-07T12:40:23.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Point2D.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\UIM.core\\Geometry\\Point2D.cs",
-              "RelativeDocumentMoniker": "UIM.core\\Geometry\\Point2D.cs",
-              "ToolTip": "C:\\lomo\\UIM\\UIM.core\\Geometry\\Point2D.cs",
-              "RelativeToolTip": "UIM.core\\Geometry\\Point2D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-07T12:36:09.306Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "WpfApp1.csproj",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
+              "ToolTip": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
               "RelativeToolTip": "WpfApp1\\WpfApp1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-06T09:42:43.243Z"
+              "WhenOpened": "2026-07-06T09:42:43.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UIM.core.csproj",
-              "DocumentMoniker": "C:\\lomo\\UIM\\UIM.core\\UIM.core.csproj",
+              "DocumentMoniker": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\UIM.core\\UIM.core.csproj",
               "RelativeDocumentMoniker": "UIM.core\\UIM.core.csproj",
-              "ToolTip": "C:\\lomo\\UIM\\UIM.core\\UIM.core.csproj",
+              "ToolTip": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\UIM.core\\UIM.core.csproj",
               "RelativeToolTip": "UIM.core\\UIM.core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -153,11 +150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
               "RelativeToolTip": "WpfApp1\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-07-06T10:51:28.393Z",
@@ -165,24 +162,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
               "RelativeToolTip": "WpfApp1\\LoginWindow.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T10:50:49.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T10:50:49.31Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Models\\User.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
               "RelativeToolTip": "WpfApp1\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,93 +186,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\UserService.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
               "RelativeToolTip": "WpfApp1\\ViewModels\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T10:17:56.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "WpfApp1\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T10:17:44.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RelayCommands.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\Commands\\RelayCommands.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
-              "RelativeToolTip": "WpfApp1\\Commands\\RelayCommands.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T09:41:40.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T10:17:56.633Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
-              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-05T20:05:25.06Z",
-              "EditorCaption": ""
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T10:17:44.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainViewModels.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\MainViewModels.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
-              "RelativeToolTip": "WpfApp1\\ViewModels\\MainViewModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RelayCommands.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Commands\\RelayCommands.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
+              "RelativeToolTip": "WpfApp1\\Commands\\RelayCommands.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T19:56:27.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T09:41:40.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ElementBase.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
-              "RelativeDocumentMoniker": "WpfApp1\\Models\\ElementBase.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
-              "RelativeToolTip": "WpfApp1\\Models\\ElementBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T19:53:51.538Z",
-              "EditorCaption": ""
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T20:05:25.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "MainViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\MainViewModels.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\MainViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:56:27.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElementBase.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Models\\ElementBase.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
+              "RelativeToolTip": "WpfApp1\\Models\\ElementBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:53:51.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
-              "ToolTip": "C:\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
               "RelativeToolTip": "WpfApp1\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T19:52:06.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T19:52:06.036Z"
             }
           ]
         }
