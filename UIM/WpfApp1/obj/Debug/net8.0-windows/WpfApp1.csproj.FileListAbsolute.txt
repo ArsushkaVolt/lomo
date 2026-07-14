@@ -89,3 +89,5 @@ C:\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
 C:\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
 C:\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
 C:\lomo\UIM\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\Co1n19\lomo\UIM\WpfApp1\bin\Debug\net8.0-windows\UIM.core.dll
+C:\Users\Co1n19\lomo\UIM\WpfApp1\bin\Debug\net8.0-windows\UIM.core.pdb

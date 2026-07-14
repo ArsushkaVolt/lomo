@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WpfApp1.Models
+﻿namespace WpfApp1.Models
 {
     public enum UserRole
     {
@@ -19,6 +13,5 @@ namespace WpfApp1.Models
         public UserRole Role { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-        // Другие метрологические данные...
     }
 }
