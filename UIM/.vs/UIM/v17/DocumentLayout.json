@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\uim.core\\geometry\\line2d\\line2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9DEAE5-011E-49D9-9FE8-6CFFFD7D47BE}|UIM.core\\UIM.core.csproj|solutionrelative:uim.core\\geometry\\line2d\\line2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|c:\\users\\dimas\\source\\repos\\lomo\\uim\\uim.tests\\measurementseriestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0EA62B9-8A45-4CC7-BAB8-5E4957F1ECA9}|UIM.tests\\UIM.tests.csproj|solutionrelative:uim.tests\\measurementseriestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,11 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Line2D.cs",
+              "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\UIM.core\\Geometry\\Line2D\\Line2D.cs",
+              "RelativeDocumentMoniker": "UIM.core\\Geometry\\Line2D\\Line2D.cs",
+              "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\UIM.core\\Geometry\\Line2D\\Line2D.cs*",
+              "RelativeToolTip": "UIM.core\\Geometry\\Line2D\\Line2D.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:56:06.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PointTests.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\UIM.tests\\PointTests.cs",
               "RelativeDocumentMoniker": "UIM.tests\\PointTests.cs",
@@ -83,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MeasurementSeriesTests.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\UIM.tests\\MeasurementSeriesTests.cs",
               "RelativeDocumentMoniker": "UIM.tests\\MeasurementSeriesTests.cs",
               "ToolTip": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\UIM.tests\\MeasurementSeriesTests.cs",
               "RelativeToolTip": "UIM.tests\\MeasurementSeriesTests.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAswG0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-14T16:51:00.417Z",
               "EditorCaption": ""
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "WpfApp1.csproj",
               "DocumentMoniker": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\WpfApp1\\WpfApp1.csproj",
               "RelativeDocumentMoniker": "WpfApp1\\WpfApp1.csproj",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UIM.core.csproj",
               "DocumentMoniker": "C:\\Users\\dimas\\Source\\Repos\\lomo\\UIM\\UIM.core\\UIM.core.csproj",
               "RelativeDocumentMoniker": "UIM.core\\UIM.core.csproj",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\LoginWindow.xaml.cs",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Models\\User.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Models\\User.cs",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\UserService.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\UserService.cs",
@@ -198,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\LoginViewModel.cs",
@@ -210,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RelayCommands.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Commands\\RelayCommands.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Commands\\RelayCommands.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
@@ -233,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainViewModels.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\ViewModels\\MainViewModels.cs",
               "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\MainViewModels.cs",
@@ -245,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ElementBase.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\Models\\ElementBase.cs",
               "RelativeDocumentMoniker": "WpfApp1\\Models\\ElementBase.cs",
@@ -257,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\dimas\\source\\repos\\lomo\\UIM\\WpfApp1\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
