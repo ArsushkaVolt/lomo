@@ -10,6 +10,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
+
 namespace WpfApp1
 {
 
@@ -17,59 +18,68 @@ namespace WpfApp1
     {
         private List<PointData> currentPoints = new List<PointData>();
         private List<PointData> filteredPoints = new List<PointData>();
-        private string currentMode = "Оператор";
+        private string currentRole = "Оператор";
 
         public MainWindow()
         {
             InitializeComponent();
             filteredPoints = new List<PointData>();
+            Login();
+            ApplyRoleRestrictions();
             UpdateModeUI();
+        }
+
+        private void Login()
+        {
+            var loginWin = new LoginWindow();
+            if (loginWin.ShowDialog() == true)
+            {
+                currentRole = loginWin.CurrentRole;
+            }
+        }
+
+        private void ApplyRoleRestrictions()
+        {
+            bool isMetrologistOrHigher = currentRole == "Метролог" || currentRole == "Администратор";
+            // Здесь можно добавлять больше ограничений
         }
 
         #region Переключение режимов
 
         private void chkMetrologist_Checked(object sender, RoutedEventArgs e)
         {
-            currentMode = "Метролог";
+            if (currentRole != "Администратор")
+            {
+                chkMetrologist.IsChecked = false;
+                MessageBox.Show("Только Администратор может активировать режим Метролог.", "Доступ запрещён");
+                return;
+            }
+            currentRole = "Метролог";
+            ApplyRoleRestrictions();
             UpdateModeUI();
         }
 
         private void chkMetrologist_Unchecked(object sender, RoutedEventArgs e)
         {
-            currentMode = "Оператор";
+            currentRole = "Оператор";
+            ApplyRoleRestrictions();
             UpdateModeUI();
         }
 
-        private void Mode_Operator_Click(object sender, RoutedEventArgs e) => SetMode("Оператор");
-        private void Mode_Metrologist_Click(object sender, RoutedEventArgs e) => SetMode("Метролог");
-        private void Mode_Admin_Click(object sender, RoutedEventArgs e) => SetMode("Администратор");
+        private void Mode_Operator_Click(object sender, RoutedEventArgs e) => SetRole("Оператор");
+        private void Mode_Metrologist_Click(object sender, RoutedEventArgs e) => SetRole("Метролог");
+        private void Mode_Admin_Click(object sender, RoutedEventArgs e) => SetRole("Администратор");
 
-        private void SetMode(string mode)
+        private void SetRole(string role)
         {
-            currentMode = mode;
-            chkMetrologist.IsChecked = (mode == "Метролог");
+            currentRole = role;
+            ApplyRoleRestrictions();
             UpdateModeUI();
         }
 
         private void UpdateModeUI()
         {
-            statusMode.Text = $"Режим: {currentMode}";
-
-            if (currentMode == "Метролог")
-            {
-                statusText.Text = "Расширенный режим активен";
-                statusText.Foreground = Brushes.Orange;
-            }
-            else if (currentMode == "Администратор")
-            {
-                statusText.Text = "Административный доступ";
-                statusText.Foreground = Brushes.Red;
-            }
-            else
-            {
-                statusText.Text = "Готов к измерению";
-                statusText.Foreground = Brushes.Green;
-            }
+            statusMode.Text = $"Пользователь: {currentRole}";
         }
 
         #endregion
@@ -94,6 +104,12 @@ namespace WpfApp1
 
         private void BtnFilterOutliers_Click(object sender, RoutedEventArgs e)
         {
+            if (currentRole != "Метролог" && currentRole != "Администратор")
+            {
+                ShowNotification("Доступ запрещён", "Фильтрация промахов доступна только в режиме Метролог", NotificationType.Error);
+                return;
+            }
+
             if (currentPoints.Count < 3)
             {
                 ShowNotification("Недостаточно точек", "Для фильтрации промахов нужно минимум 3 точки", NotificationType.Warning);
@@ -133,7 +149,7 @@ namespace WpfApp1
             double avgX = points.Average(p => p.X);
             double stdDev = CalculateStdDev(points.Select(p => p.X));
 
-            return points.Where(p => Math.Abs(p.X - avgX) / stdDev < 2.5).ToList(); // ~2.5σ
+            return points.Where(p => Math.Abs(p.X - avgX) / stdDev < 2.5).ToList();
         }
 
         private double CalculateStdDev(IEnumerable<double> values)
@@ -161,7 +177,6 @@ namespace WpfApp1
                 Header = $"● {type} ({filteredPoints.Count} точек)"
             });
 
-            // Очистка
             currentPoints.Clear();
             filteredPoints.Clear();
             lstMeasuredPoints.Items.Clear();
@@ -223,7 +238,6 @@ namespace WpfApp1
     {
         public double X { get; }
         public double Y { get; }
-
         public PointData(double x, double y)
         {
             X = x;

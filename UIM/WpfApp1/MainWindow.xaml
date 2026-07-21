@@ -66,9 +66,7 @@
             <Button Content="📐 СК" Width="50" Height="42" Click="BtnOpenCS_Click"/>
             <CheckBox x:Name="chkMetrologist" Content="Метролог" Margin="20,8" FontSize="14" FontWeight="SemiBold"
                       Checked="chkMetrologist_Checked" Unchecked="chkMetrologist_Unchecked"/>
-            <Button Content="Профиль" Width="150" Height="42" Background="Green" Foreground="White"
-        Click="BtnFixPoint_Click"/>
-
+      
             
         </ToolBar>
 

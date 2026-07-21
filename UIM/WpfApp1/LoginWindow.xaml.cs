@@ -14,18 +14,38 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Логика взаимодействия для LoginWindow.xaml
-    /// </summary>
     public partial class LoginWindow : Window
     {
+        public string CurrentUser { get; private set; } = "Оператор";
+        public string CurrentRole { get; private set; } = "Оператор";
+
         public LoginWindow()
         {
             InitializeComponent();
         }
 
-        public void Login_Click(object sender, RoutedEventArgs e)
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
+            string login = txtLogin.Text.Trim().ToLower();
+            string pass = txtPassword.Password;
+
+            if (login == "admin" && pass == "admin")
+            {
+                CurrentRole = "Администратор";
+                CurrentUser = "Администратор";
+            }
+            else if (login == "metrologist" || (login == "operator" && pass == "123"))
+            {
+                CurrentRole = "Метролог";
+                CurrentUser = "Метролог";
+            }
+            else
+            {
+                CurrentRole = "Оператор";
+                CurrentUser = "Оператор";
+            }
+
+            this.DialogResult = true;
             this.Close();
         }
     }
